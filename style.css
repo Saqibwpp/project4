@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Inter, sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 680px;
+  background-image: url(backgroundlefimg.png);
+}
+
+.logo {
+  display: flex;
+  width: 184.52px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+
+.logo h1 {
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+}
+.content {
+  padding-top: 60px;
+  padding-left: 149px;
+  padding-right: 110px;
+}
+.content1 {
+  padding-bottom: 24px;
+}
+.content1 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 1);
+}
+.content1 p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  color: rgba(218, 220, 224, 1);
+}
+.content1 img {
+  width: 24px;
+  height: 24px;
+}
+.images {
+  display: flex;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  /* padding-bottom: 146px; */
+  padding-left: 130px;
+  justify-content: left;
+  padding-right: 130px;
+}
+
+.right h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+  margin-top: 0;
+  color: rgba(27, 37, 51, 1);
+}
+/* for first and last name */
+.name {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.1rem;
+  justify-content: space-between;
+}
+.first-name {
+  flex: 1;
+}
+.last-name {
+  flex: 1;
+}
+
+.first-name label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(50, 62, 79, 1);
+  padding-bottom: 8px;
+}
+
+.first-name input {
+  color: rgba(105, 116, 131, 1);
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 400;
+  height: 3rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  border-color: rgba(214, 218, 225, 1);
+}
+
+.last-name label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(50, 62, 79, 1);
+  padding-bottom: 8px;
+}
+
+.last-name input {
+  color: rgba(105, 116, 131, 1);
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  height: 3rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  border-color: rgba(214, 218, 225, 1);
+}
+
+/* for email portion */
+.email-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.1rem;
+}
+
+.email-div label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(50, 62, 79, 1);
+  padding-bottom: 8px;
+}
+.email-div input {
+  color: rgba(105, 116, 131, 1);
+  font-size: 1rem;
+  font-weight: 400;
+  height: 3rem;
+  border: 2px solid;
+  border-color: rgba(214, 218, 225, 1);
+  border-radius: 0.5rem;
+}
+
+/* for password div */
+
+.password-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+}
+
+.password-div label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(50, 62, 79, 1);
+  padding-bottom: 8px;
+}
+.password-div input {
+  color: rgba(105, 116, 131, 11);
+  font-size: 1rem;
+  font-weight: 400;
+  height: 3rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  border-color: rgba(214, 218, 225, 1);
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+}
+
+.button-div a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button-div button {
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: rgba(1, 126, 243, 1);
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(105, 116, 131, 1);
+  margin: 0;
+}
+
+.terms a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  color: rgba(27, 37, 51, 1);
+}
+.terms b {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(27, 37, 51, 1);
+}
+.lastline {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(105, 116, 131, 1);
+  padding-bottom: 30px;
+}
+
+.lastline a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  color: rgba(1, 126, 243, 1);
+}
+
+.movingvalues {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movingvalues img {
+  width: 22px;
+}
+
+.movingvalues input {
+  display: flex;
+  width: 24px;
+}
+
+#step1 {
+  font-size: 18px;
+  width: 500;
+  color: rgba(1, 126, 243, 1);
+}
+
+#step2 {
+  font-size: 18px;
+  width: 500;
+  color: rgba(180, 185, 193, 1);
+}
+#step3 {
+  font-size: 18px;
+  width: 500;
+  color: rgba(180, 185, 193, 1);
+}
+#step4 {
+  font-size: 18px;
+  width: 500;
+  color: rgba(180, 185, 193, 1);
+}
+
+@media (max-width: 600px) {
+  .left {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    display: none;
+  }
+}
